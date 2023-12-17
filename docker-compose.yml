@@ -1,0 +1,12 @@
+version: '3'
+services:
+
+  sleek-airflow:
+    image: apache/airflow:latest
+    volumes:
+      - ./airflow:/opt/airflow
+    ports:
+      - "8080:8080"
+      - "8000:8000"
+      - "8501:8501"
+    command: airflow standalone
