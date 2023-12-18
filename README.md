@@ -10,9 +10,11 @@ This project involves building a comprehensive data pipeline that fetches weathe
     - *file_fastapi.py*: FastAPI file
     - *main.py*: Consume the API and update the dataset
     - *random-forest_ML.py*: Dataset Training
+    - *random_forest_model.pkl*: Pickle file that store trained machine learning model
+    - *Weather_Data.csv*: Dataset File
+
   - *weather_dag.py*: Main Apache Airflow DAG configuration file
-- **/models**: Directory to store trained machine learning models
-- **/data**: Directory to store datasets
+  
 
 ## Getting Started
 
