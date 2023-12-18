@@ -76,7 +76,7 @@ This service provides an API for making weather predictions based on input param
 - **Example Request using curl:**
 
   ```bash
-  curl -X POST "http://localhost:8000/predict" -H "Accept: application/json" -H "Content-Type: application/json" -d '{"Temperature": 25.6, "Temp_Min": 20.6, "Temp_Max": 30.6, "Pressure": 1015.0, "Sea_Level": 1020.0, "Humidity": 60.0, "Wind_Speed": 10.0, "Lon": 45.0, "Lat": -30.0}'
+  curl -X POST "http://localhost:8000/predict" -H "Accept: application/json" -H "Content-Type: application/json" -d "{\"Temperature\": 25.6, \"Temp_Min\": 20.6, \"Temp_Max\": 30.6, \"Pressure\": 1015.0, \"Sea_Level\": 1020.0, \"Humidity\": 60.0, \"Wind_Speed\": 10.0, \"Lon\": 45.0, \"Lat\": -30.0}"
   ```
 
 - **Response:**
