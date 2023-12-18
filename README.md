@@ -96,4 +96,4 @@ This service provides an API for making weather predictions based on input param
 To use this service, send a POST request to the `/predict` endpoint with the required input parameters. The service will respond with the predicted weather information, and the `prediction` field will indicate whether there is snow or rain (1) or not (0).
 
 Feel free to replace the example values in the request payload with your actual weather parameters.
-```
+
