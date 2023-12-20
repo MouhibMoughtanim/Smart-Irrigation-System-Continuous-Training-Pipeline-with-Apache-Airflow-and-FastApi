@@ -46,7 +46,7 @@ execute_script_task_1 = BashOperator(
 # Task to execute the Python script
 execute_script_task_2 = BashOperator(
     task_id='task_2',
-    bash_command='python /opt/airflow/dags/scripts/Projet_ML2.py',
+    bash_command='python /opt/airflow/dags/scripts/random-forest_ML.py',
     dag=dag
 )
 
